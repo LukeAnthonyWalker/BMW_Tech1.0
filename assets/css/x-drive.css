@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300i,400i");
+
+body{
+    background-image: url(../../images/x-e.jpeg);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    padding: 80px;
+    color: white;
+}
+
+.navbar-inverse{
+    background:#222B31 !important;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    border-bottom:4px solid #EE445F !important;
+}
+
+.navbar-brand{
+    font:12px montserrat !important;
+    text-transform:uppercase;
+    color:#FFF !important;
+    letter-spacing:3px;
+    margin-top:2px;
+}
+
+.row {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+}
+
+.col-lg-12 {
+    letter-spacing: 3px;
+}
+
+label {
+    font-family: 'Poppins', sans-serif; 
+    color: #6E706F;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: #212121 !important;
+}
+
+.op {
+    color: #6E706F;
+}
+
+.r1 {
+    width: auto;
+}
+
+.list-group-item {
+    color: black;
+}
+
+.lo {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    padding-top: 40px;
+    margin-top: 20px;
+}

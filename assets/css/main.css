@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300i,400i");
+
+body{
+    background-image: url(../../images/home.jpg); /* Sets the background image */
+}
+
+.jumbotron {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    background-color:transparent !important; /* makes the background of the Jumbotron transparent */
+    position: absolute; /* Allows the jumbotron to be moved */
+    top: 50%; /* Centering the text */
+    text-decoration: none;
+    left:50%;
+    transform: translate(-50%,-50%);  
+    color: white !important; /* Colors the text to white */
+    text-align: center; /* Keeps the text centered */
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif !important; /* sets the font for everything with the h1 tag */
+}
+
+.button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+	-ms-appearance: none;
+    text-decoration: none !important; /* Ensures there isn't any underlining and standard decoration */
+    -moz-transition: border-color 0.2s ease;
+	-webkit-transition: border-color 0.2s ease;
+    -ms-transition: border-color 0.2s ease;
+	transition: border-color 0.2s ease; /* Makes the border of the button have transition to a lighter white */
+	border: solid 1px !important; /* Gives the button an actual border */
+    border-color: rgba(255, 255, 255, 0.15) !important; /* Sets the border of the buttons color */
+	border-radius: 3em; /* Rounds the corners of the button to make it an oval instead of a rectangle */
+    color: #ffffff !important; /* Sets the color of the button text to white */
+	cursor: pointer; /* Sets the cursor to change to a pointer when hovering over the button */
+	display: inline-block; /* Allows for a bigger gap around the text of the button */
+	font-size: 0.7em; /* Sets the font size */
+	font-weight: bold; /* Sets all text in the button to be bold */	
+    letter-spacing: 0.25em; /* Sets letter spacing of the text */
+    line-height: 4.75em; /* sets space between text and button border */
+	outline: 0; /* sets space between text and button border */
+    padding: 0 3.75em; /* sets space between text and button border */
+	position: relative;
+	text-align: center; /* Sets text to be centered of the object */
+	text-transform: uppercase; /* makes any text in the button to only be uppercase */
+	white-space: nowrap;
+}
+
+.button:after { /* styling of the button after hovered */ 
+    -moz-transform: scale(0.25);
+    -webkit-transform: scale(0.25);
+    -ms-transform: scale(0.25);
+    transform: scale(0.25);
+	-moz-pointer-events: none; /* these are all transitions allowing the button to have effects when hovered */
+    -webkit-pointer-events: none;
+	-ms-pointer-events: none;
+	pointer-events: none;
+	-moz-transition: opacity 0.2s ease, -moz-transform 0.2s ease;
+	-webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
+	-ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
+	transition: opacity 0.2s ease, transform 0.2s ease;
+	background: #ffffff;
+	border-radius: 3em;
+	content: '';
+    height: 100%;
+    left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.button:hover {
+    border-color: rgba(255, 255, 255, 0.55) !important;
+}
+
+.button:hover:after {
+    opacity: 0.05;
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}

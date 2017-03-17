@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300i,400i");
+
+body{
+    background-image: url(../../images/bg2.jpeg); /* sets background image */
+    font-family: 'Montserrat', sans-serif; /* sets font in body */
+    padding: 80px;
+    color: white; /* font color */
+}
+
+.navbar-inverse{
+    background:#222B31 !important; /* Navbar color */
+    font-family: "Source Sans Pro", Helvetica, sans-serif; /* Navbar font */
+    border-bottom:4px solid #EE445F !important; /* Pink border bottom */
+}
+
+.navbar-brand{
+    font:12px montserrat !important; /*Sets font for navbar logo */
+    text-transform:uppercase; /*enforces all caps */
+    color:#FFF !important; /* Logo color */
+    letter-spacing:3px; /* Spaces inbetween letters */
+    margin-top:2px; /* Positioning inline */
+}
+
+.row {
+    font-family: 'Montserrat', sans-serif; /* Sets font for content in row */
+    color: #FFF; /* font color */
+}
+
+.col-lg-12 {
+    letter-spacing: 3px; /* Spaces inbetween letters */
+}
+
+
+
